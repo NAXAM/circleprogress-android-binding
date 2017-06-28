@@ -173,6 +173,9 @@ namespace CirclerProgressQs
 			// aapt resource value: 0x7f020000
 			public const int Icon = 2130837504;
 			
+			// aapt resource value: 0x7f020001
+			public const int nx_logo_green = 2130837505;
+			
 			static Drawable()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();

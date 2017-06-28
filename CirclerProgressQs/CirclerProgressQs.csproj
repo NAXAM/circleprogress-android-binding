@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{C879C6DB-675E-4026-8EED-76A6A467814D}</ProjectGuid>
+    <ProjectGuid>{C0E2C209-42E5-4052-91C7-5563DB08FF54}</ProjectGuid>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -77,10 +77,13 @@
     <None Include="Properties\AndroidManifest.xml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\circleprogress-android-binding\Naxam.CirclerProgress.Droid.csproj">
+    <ProjectReference Include="..\Naxam.CirclerProgress.Droid\Naxam.CirclerProgress.Droid.csproj">
       <Project>{f0f51f4a-f0d8-4db1-a21f-62b83928fecf}</Project>
       <Name>Naxam.CirclerProgress.Droid</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\nx_logo_green.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
