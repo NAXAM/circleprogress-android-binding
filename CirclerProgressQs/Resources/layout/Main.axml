@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="#ffffff">
+  <com.github.lzyzsd.circleprogress.CircleProgress
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_gravity="center_horizontal"
+    app:circle_progress="20"
+    app:circle_text_color="#ffffff"
+    app:circle_unfinished_color="#7d7d7d"
+       />
+  <com.github.lzyzsd.circleprogress.DonutProgress
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    app:donut_progress="30"/>
+  <com.github.lzyzsd.circleprogress.ArcProgress
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_gravity="center_horizontal"
+    android:background="#214193"
+    app:arc_progress="55"
+    app:arc_bottom_text="MEMORY"/>
+</LinearLayout>
