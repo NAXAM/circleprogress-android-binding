@@ -77,9 +77,9 @@
     <None Include="Properties\AndroidManifest.xml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\circleprogress-android-binding\NXCirclerProgress.Droid.csproj">
+    <ProjectReference Include="..\circleprogress-android-binding\Naxam.CirclerProgress.Droid.csproj">
       <Project>{f0f51f4a-f0d8-4db1-a21f-62b83928fecf}</Project>
-      <Name>NXCirclerProgress.Droid</Name>
+      <Name>Naxam.CirclerProgress.Droid</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

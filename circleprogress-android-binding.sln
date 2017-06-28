@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NXCirclerProgress.Droid", "circleprogress-android-binding\NXCirclerProgress.Droid.csproj", "{F0F51F4A-F0D8-4DB1-A21F-62B83928FECF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Naxam.CirclerProgress.Droid", "circleprogress-android-binding\Naxam.CirclerProgress.Droid.csproj", "{F0F51F4A-F0D8-4DB1-A21F-62B83928FECF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CirclerProgressQs", "CirclerProgressQs\CirclerProgressQs.csproj", "{C879C6DB-675E-4026-8EED-76A6A467814D}"
 EndProject
